@@ -58,6 +58,7 @@ public class DDJUtils {
         x1 = new Variant(0, true);
         y1 = new Variant(0, true);
         if (isBand == 1) {
+            //ss
             try {
                 dm.FindPic(123, 222, 566, 676, "/wsddj/agree.bmp", "", 0.6, 0, x, y);
 
@@ -141,6 +142,7 @@ public class DDJUtils {
             dm.LeftClick();
 
         } catch (Exception e) {
+            e.printStackTrace();
         }
 
     }
